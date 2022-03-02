@@ -1,6 +1,7 @@
 let mynomber,mynomber1,resultat:number;
 mynomber =parseint(prompt("entre le nombre"));
 mynomber1 =parseInt(prompt('entre le nombre'));
+resultat = mynomber + mynomber1;
 if(resultat > 0){
   console.log("nombre positif"),(resultat);
 }else{
